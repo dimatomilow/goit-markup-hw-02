@@ -1,0 +1,95 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --white-color: #fff;
+  --accnt-color: #2196f3;
+  --button-color: #f5f4fa;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--text-color);
+}
+/* Навигация
+========================== */
+
+.logo {
+  color: var(--title-text-color);
+}
+.logo-decoration {
+  color: var(--accnt-color);
+}
+
+.nav-list-item {
+  color: var(--title-text-color);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--accnt-color);
+}
+
+.nav-contact-item {
+  color: var(--text-color);
+}
+
+.nav-contact-item:hover,
+.nav-contact-item:focus {
+  color: var(--accnt-color);
+}
+
+/* Featuresи
+========================== */
+.hero-tetle {
+  color: var(--title-text-color);
+}
+.hero-button {
+  background-color: var(--accnt-color);
+  color: var(--white-color);
+}
+.features-title {
+  color: var(--title-text-color);
+}
+.features-text {
+  color: var(--text-color);
+}
+
+/* Work
+========================== */
+.work-title {
+  color: var(--title-text-color);
+}
+/* Team
+========================== */
+.team-title {
+  color: var(--title-text-color);
+}
+
+/* Footer
+========================== */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.address-link {
+  color: var(--white-color);
+}
+.address-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio
+========================== */
+.filter-button {
+  background-color: var(--button-color);
+  color: var(--title-text-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accnt-color);
+  color: var(--white-color);
+}
+.portfolio-title {
+  color: var(--title-text-color);
+}
